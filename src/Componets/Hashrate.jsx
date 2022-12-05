@@ -28,7 +28,7 @@ const Hashrate = () => {
           <div className='max-w-[1400px] mx-auto grid lg:grid-cols-3 gap-11'>
             <div className='bg-white hover:text-white hover:bg-[#2B076E] lg:py-14 md:py-12 sm:py-10 py-5 rounded-2xl'>
               <img src={Bitcoin} className='w-20 mx-auto' alt="bitcoin-logo" />
-              <div className='flex align-top items-center justify-center pt-11 pb-6'>
+              <div className='flex align-top items-center justify-center lg:pt-11 md:pt-10 sm:pt-9 pt-7 pb-6'>
                 <h3 className='text-[32px] leading-[48px] font-bold'>Bitcoin</h3>
                 <p className='font-medium leading-[27px] text-[18px] opacity-[30%]'>BTC</p>
               </div>
@@ -37,9 +37,9 @@ const Hashrate = () => {
                 <img src={arrow} className='w-[11.98px] mx-auto' alt="arrow" />
               </div>
             </div>
-            <div className='bg-white hover:text-white hover:bg-[#2B076E] py-14 rounded-2xl'>
+            <div className='bg-white hover:text-white hover:bg-[#2B076E] lg:py-14 md:py-12 sm:py-10 py-5 rounded-2xl'>
               <img src={Ethereum} className='w-20 mx-auto' alt="bitcoin-logo" />
-              <div className='flex align-top items-center justify-center pt-11 pb-6'>
+              <div className='flex align-top items-center justify-center lg:pt-11 md:pt-10 sm:pt-9 pt-7 pb-6'>
                 <h3 className='text-[32px] leading-[48px] font-bold'>Ethereum</h3>
                 <p className='font-medium leading-[27px] text-[18px] opacity-[30%]'>ETH</p>
               </div>
@@ -48,9 +48,9 @@ const Hashrate = () => {
                 <img src={arrow} className='w-[11.98px] mx-auto' alt="arrow" />
               </div>
             </div>
-            <div className='bg-white hover:text-white hover:bg-[#2B076E] py-14 rounded-2xl'>
+            <div className='bg-white hover:text-white hover:bg-[#2B076E] lg:py-14 md:py-12 sm:py-10 py-5 rounded-2xl'>
               <img src={Litecoin} className='w-20 mx-auto' alt="bitcoin-logo" />
-              <div className='flex align-top items-center justify-center pt-11 pb-6'>
+              <div className='flex align-top items-center justify-center lg:pt-11 md:pt-10 sm:pt-9 pt-7 pb-6'>
                 <h3 className='text-[32px] leading-[48px] font-bold'>Litecoin</h3>
                 <p className='font-medium leading-[27px] text-[18px] opacity-[30%]'>LTC</p>
               </div>
