@@ -15,7 +15,7 @@ const Hero = () => {
           </div>
           <h1 className='lg:text-[64px] md:text-5xl sm:text-3xl font-bold lg:leading-[75.84px] lg:w-[580px]'>Fastest & secure platform to invest in crypto</h1>
           <p className='text-base text-[#E0E0E0] lg:w-[435px]'>Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.</p>
-          <div className='bg-[#3671E9] py-[14px] px-[32px] rounded-[32px] flex items-center justify-between w-[202px] hover:bg-white text-black'>
+          <div className='bg-[#3671E9] py-[14px] px-[32px] rounded-[32px] flex items-center justify-between w-[202px] hover:bg-white text-black cursor-pointer'>
             <button>Try for FREE</button>
             <div className='border-2 border-white rounded-full w-[34px] h-[34px] bg-white flex items-center'>
               <img src={arrow} className='mx-auto' alt="arrow" />

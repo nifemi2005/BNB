@@ -1,5 +1,6 @@
 import React from 'react'
 import Currency from '../Componets/Currency'
+import Features from '../Componets/Features'
 import Hashrate from '../Componets/Hashrate'
 import Hero from '../Componets/Hero'
 import Navbar from '../Componets/Navbar'
@@ -13,6 +14,7 @@ const Home = () => {
       <Currency/>
       <Reason/>
       <Hashrate/>
+      <Features/>
     </div>
   )
 }

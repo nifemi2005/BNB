@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div className='bg-[#0D0D2B] lg:px-28 md:px-11 sm:px-9 px-7 w-full lg:border-0 md:border-b sm:border-b border-b border-b-slate-400'>
         <div className='flex items-center justify-between lg:h-[172px] md:h-[102px] sm:h-[70px] h-16'>
-            <div className='lg:w-[135px] sm:w-[130px] w-[100px]'>
+            <div className='lg:w-[135px] sm:w-[130px] w-[100px] cursor-pointer'>
                 <img src={Crappo} alt="" />
             </div>
             <div className='text-white font-normal text-base lg:flex items-center hidden'>
