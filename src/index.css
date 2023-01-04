@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.graph-container{
+    background-image: url(./Images/Graph-Container.png);
+    height: 250px;
+    width: 538px;
+}
