@@ -26,7 +26,7 @@ const Hashrate = () => {
       </div>
       <div>
         <h2 className='lg:leading-[60px] lg:text-[40px] md:text-[35px] sm:text-[30px] font-bold lg:w-[741px] mx-auto text-center lg:pt-[100px] md:pt-[100px] sm:pt-[80px] pt-[50px] lg:pb-0 md:pb-[100px] sm:pb-[60px] pb-[20px]'>Trade securely and market the high growth cryptocurrencies.</h2>
-        <div className='lg:w-full md:w-[370px] sm:w-[370px] lg:py-[64px] px-4 mx-auto'>
+        <div className='lg:w-[90%] md:w-[370px] sm:w-[370px] lg:py-[64px] px-4 mx-auto'>
           <div className='max-w-[1400px] mx-auto grid lg:grid-cols-3 gap-11'>
             <div className='bg-white hover:text-white hover:bg-[#2B076E] lg:py-14 md:py-12 sm:py-10 py-5 rounded-2xl cursor-pointer'>
               <img src={Bitcoin} className='w-20 mx-auto' alt="bitcoin-logo" />
