@@ -18,7 +18,7 @@ const Features = () => {
                 <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] font-bold lg:text-start md:text-center sm:text-center'>Invest Smart</h3>
                 <p className='leading-[28px] font-normal text-[#E0E0E0] lg:w-[408px] sm:pt-6 sm:pb-8 pt-4 pb-6'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. </p>
                 <div className='lg:text-start md:text-center sm:text-center text-center'>
-                  <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] sm:py-[14px] py-[10px] sm:px-[32px] px-[20px] rounded-[32px]'>Learn More</button>
+                  <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] hover:bg-white hover:text-black sm:py-[14px] py-[10px] sm:px-[32px] px-[20px] rounded-[32px]'>Learn More</button>
                 </div>
             </div>
           {/* right */}
@@ -26,13 +26,13 @@ const Features = () => {
               <img src={Chart} className='sm:mx-auto lg:my-0 md:my-8 sm:my-5 my-4' alt="BITCOIN-CHART" />
             </div>
         </div>
-        <div className='lg:px-28 md:px-11 sm:px-9 px-7 lg:flex justify-between items-center lg:py-[70px]'>
+        <div className='lg:px-28 md:px-11 sm:px-9 px-7 lg:grid lg:grid-cols-2 items-center gap-28 lg:py-[70px]'>
           {/* left  */}
           <div>
             <div>
-              <img src={Statitics} className='lg:hidden lg:mb-0 md:mb-8 sm:mb-5 mb-4 mx-auto' alt="" />
+              <img src={Statitics} className='lg:mb-0 md:mb-8 sm:mb-5 mb-4 mx-auto' alt="statitics" />
             </div>
-            <div className='w-[90%]'>
+            <div className='w-[500px] hidden'>
               <div className='bg-[#280569] px-[10px] py-[18px] lg:h-[76px] hidden lg:flex justify-between w-[100%]'>
                 <div className=''>
                   <div className='flex'>
@@ -111,7 +111,6 @@ const Features = () => {
                   <p>Jul</p>
                   <p>Aug</p>
                   <p>Sep</p>
-                  <p>Oct</p>
                 </div>
               </div>
             </div>
@@ -121,7 +120,7 @@ const Features = () => {
             <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] font-bold lg:text-start md:text-center sm:text-center'>Detailed Statistics</h3>
             <p className='leading-[28px] font-normal text-[#E0E0E0] lg:w-[408px] sm:pt-6 sm:pb-8 pt-4 pb-6'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
             <div className='lg:text-start md:text-center sm:text-center text-center'>
-              <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] py-[14px] px-[32px] rounded-[32px] lg:mb-0 md:mb-8 sm:mb-5 mb-4'>Learn More</button>
+              <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] py-[14px] px-[32px] hover:bg-white hover:text-black rounded-[32px] lg:mb-0 md:mb-8 sm:mb-5 mb-4'>Learn More</button>
             </div>
           </div>
         </div>
@@ -131,7 +130,7 @@ const Features = () => {
             <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] lg:w-[454px] font-bold'>Grow your profit and track your investments</h3>
             <p className='leading-[28px] font-normal text-[#E0E0E0] lg:w-[408px] sm:pt-6 sm:pb-8 pt-4 pb-6'>Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.</p>
             <div className='lg:text-start md:text-center sm:text-center text-center'>
-              <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] py-[14px] px-[32px] rounded-[32px] lg:mb-0 md:mb-8 sm:mb-5 mb-4'>Learn More</button>
+              <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] py-[14px] px-[32px] rounded-[32px] lg:mb-0 md:mb-8 sm:mb-5 mb-4 hover:bg-white hover:text-black'>Learn More</button>
             </div>
           </div>
           {/* right  */}

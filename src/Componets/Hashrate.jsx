@@ -16,7 +16,7 @@ const Hashrate = () => {
         <div className='bg-[#FBFCFE] lg:py-8 md:py-7 sm:py-5 py-4 px-6'>
           <input type="email" placeholder='Enter your hash rate' className='outline-0 bg-transparent border-b border-b-[#E0E0E0] md:w-[50%] sm:w-[60%] w-[90%] text-[#0D0D2B] placeholder-[#0D0D2B]' />
           <select name="" id="">TH/s</select>
-          <button className='bg-[#3671E9] py-[14px] px-[32px] rounded-[32px] text-white'>Calculate</button>
+          <button className='bg-[#3671E9] hover:bg-white hover:text-black py-[14px] px-[32px] rounded-[32px] text-white'>Calculate</button>
         </div>
         <div className='bg-white py-6 px-6'>
           <p className='text-[#3671E9] font-medium leading-6 lg:text-[16px] sm:text-[16px] text-[14px]'>ESTIMATED 24 HOUR REVENUE:</p>
