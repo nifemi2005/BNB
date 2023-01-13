@@ -15,8 +15,8 @@ const Features = () => {
         <div className='lg:px-28 md:px-11 sm:px-9 px-7 lg:grid lg:grid-cols-2'>
           {/* left */}
             <div>
-                <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] font-bold lg:text-start md:text-center sm:text-center'>Invest Smart</h3>
-                <p className='leading-[28px] font-normal text-[#E0E0E0] lg:w-[408px] sm:pt-6 sm:pb-8 pt-4 pb-6'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. </p>
+                <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] font-bold lg:text-start text-center'>Invest Smart</h3>
+                <p className='leading-[28px] font-normal text-[#E0E0E0] lg:w-[408px] sm:pt-6 sm:pb-8 pt-4 pb-4'>Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. </p>
                 <div className='lg:text-start md:text-center sm:text-center text-center'>
                   <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] hover:bg-white hover:text-black sm:py-[14px] py-[10px] sm:px-[32px] px-[20px] rounded-[32px]'>Learn More</button>
                 </div>
@@ -117,7 +117,7 @@ const Features = () => {
           </div>
           {/* right  */}
           <div>
-            <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] font-bold lg:text-start md:text-center sm:text-center'>Detailed Statistics</h3>
+            <h3 className='lg:text-[32px] md:text-[28px] sm:text-[26px] text-[20px] lg:leading-[48px] font-bold lg:text-start text-center'>Detailed Statistics</h3>
             <p className='leading-[28px] font-normal text-[#E0E0E0] lg:w-[408px] sm:pt-6 sm:pb-8 pt-4 pb-6'>View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.</p>
             <div className='lg:text-start md:text-center sm:text-center text-center'>
               <button className='md:text-[18px] sm:text-[16px] text-[15px] bg-[#3671E9] py-[14px] px-[32px] hover:bg-white hover:text-black rounded-[32px] lg:mb-0 md:mb-8 sm:mb-5 mb-4'>Learn More</button>
